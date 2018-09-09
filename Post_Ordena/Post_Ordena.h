@@ -1,0 +1,1 @@
+void post_ordena ( char * , char * ) ;
