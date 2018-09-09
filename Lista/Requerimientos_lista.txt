@@ -1,0 +1,28 @@
+//Programa: Listas doblemente enlazadas.
+
+/* Definiciones
+	* Nodo. Estructura que lleva los datos siguientes: nombre (nombre de pila), telefono (8 digitos), correo, edad.
+	*	Adicionalmente, cada  nodo contiene dos apuntadores de tipo Nodo: Siguiente y Anterior. 
+	*
+	* Lista: es un conjunto de nodos con dos enalces cada uno. Tiene un tamaño variable (longitud = cantidad de nodos)
+	* La lista puede contener  un apuntador al nodo Inicial, el cuál será la cabeza de la lista .
+	* 
+	* La lista puede tener un indice de busqueda , el cual es un apuntador a un posición o puntero a un nodo de  la lista  ? 
+*/   Extra: La lista puede contener un apuntador al nodo final. 
+
+//Funciones que implementa:
+
+// --> Orden lexicográfico (determinar dadas dos palabras cuál va primero alfabeticamente) -> Listo
+		// lexi ( p1, p2) ----------> p1>p2 => 1 ; p2>p1 => 2 ; p1==p2 => 0 ; Error => 3
+// --> Is_Empty : 1 si la lista es vacia , 0 si no . -> Litsto
+// --> Add : insertar en la lista un nodo --> Listo
+// --> Remove: sacar de la lista un nodo 
+// --> Búsqueda : dado un nombre, buscar el apuntador del nodo ---> Listo :D
+// --> Imprimir lista (recibe la lista y la imprime ) -> Listo
+
+Requrimientos particulares . 
+
+// Se debe emplear memoria dinámica para crear los nodos.
+// ---> Se crea un nodo al inicializar la lista, y con ese nodo, se crean el resto , en las funciones correspondientes.
+// La funcion de push() debe emplear dentro de ella a la de orden lexicografico
+// Cada elemento de la estrucura de nodo, debe crearse con memoria dinamica.
